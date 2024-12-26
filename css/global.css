@@ -1,5 +1,40 @@
+:root{
+  --brand-color: #EF5F4C;
+  --background-color: #FFFFFF;
+  --surface-color:#F5F5F5;
+  --skeleton-color: #D9D9D9;
+  --shape-transparency: rgba(255, 255, 255, .56);
+  
+  --text-color-primary: #313131;
+  --text-color-secondary: #6C6C6C;
+
+  --paragraph: "Poppins", sans-serif;
+
+  --text-l: bold 32px/40px var(var(--paragraph));
+  --text-m: 16px/24px var(var(--paragraph));
+  --text-s: 14px/22px var(var(--paragraph));
+  --text-xs: 12px/16px(var(--paragraph));
+  --text-large: bold 32px/125% var(var(--paragraph));
+}
+
+
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body{
+  color: var(--text-color-secondary);
+  padding-inline: 32px;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+  transition: var(--text-color-primary) .700s ease-in-out;
+}
+
+a:hover{
+  color: var(--brand-color-);
 }
