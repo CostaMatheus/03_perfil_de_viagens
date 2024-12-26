@@ -1,0 +1,29 @@
+.about{
+  display: flex;
+  justify-content: space-between;
+  padding: 32px;
+}
+
+#main-info{
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  max-width: 592px;
+}
+
+#main-info h1{
+  color: var(--text-color-primary);
+  margin-bottom: 8px;
+}
+
+#info{
+   display: flex;
+   flex-direction: column;
+   gap: 16px;
+}
+
+#info a{
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
