@@ -1,0 +1,16 @@
+footer{
+  display: flex;
+  justify-content: space-between;
+  padding-block: 24px;
+  align-items: center;
+}
+
+.footer-links{
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.footer-links a:hover{
+  text-decoration: un;
+}
